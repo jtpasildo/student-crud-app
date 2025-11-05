@@ -1,6 +1,6 @@
 from db import getAllStudents, addStudent, updateStudentEmail, deleteStudent
 
-# print func to display each CRUD operation
+# print function to display each CRUD operation
 def print_students(operation):
     print(f"\n {operation}")
     rows = getAllStudents()
