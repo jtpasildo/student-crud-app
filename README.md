@@ -41,4 +41,5 @@ python3 main.py
 Demonstrates and prints out all the CRUD operations in action
 
 ## Video Link:
+https://youtu.be/vQLkCA163ZA
 
