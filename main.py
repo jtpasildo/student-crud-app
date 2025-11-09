@@ -18,23 +18,27 @@ def print_students(operation):
 def main():
     #1 Initial Setup
     print_students("Initial rows")
+    input("Press Enter to show Initial Rows")
     
     #2 Insert
     new_email = f"jordan.pasildo@example.com"
     new_id = addStudent("Jordan", "Pasildo", new_email, "2023-09-03")
     print(f"\n Insert student {new_id} with email {new_email}")
     print_students("After INSERT")
+    input("Press Enter to show INSERT")
     
     #3 Update
     updated_email = f"jordan.p@example.com"
     updated = updateStudentEmail(new_id, updated_email)
     print(f"\n Rows updated: {updated}. Student {new_id} updated email to {updated_email}")
     print_students("After UPDATE")
+    input("Press Enter to show UPDATE")
     
     #4 Delete
     deleted = deleteStudent(new_id)
     print(f"\n Rows deleted: {deleted}. Student {new_id}")
     print_students("After DELETE")
+    input("Press Enter to show DELETE")
 
 
 if __name__ == "__main__":
